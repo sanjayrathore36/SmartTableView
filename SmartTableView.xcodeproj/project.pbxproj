@@ -14,8 +14,10 @@
 		8460F66B17E8521500F89448 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460F66317E8521500F89448 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8460F66C17E8521500F89448 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460F66517E8521500F89448 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8460F66D17E8521500F89448 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460F66717E8521500F89448 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8497D7EA17E9CC9000B3BA6F /* SmartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497D7E817E9CC9000B3BA6F /* SmartTableViewController.m */; };
-		8497D7EC17E9CCE800B3BA6F /* SmartTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8497D7EB17E9CCE800B3BA6F /* SmartTableViewController.xib */; };
+		84971F9217EADDED002B1A14 /* SmartMarkableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84971F9017EADDED002B1A14 /* SmartMarkableViewController.m */; };
+		84971F9317EADDED002B1A14 /* SmartMarkableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84971F9117EADDED002B1A14 /* SmartMarkableViewController.xib */; };
+		84971F9717EAF9DB002B1A14 /* SmartTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84971F9417EAF9DB002B1A14 /* SmartTableViewController.xib */; };
+		84971F9817EAF9DB002B1A14 /* SmartTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84971F9517EAF9DB002B1A14 /* SmartTableViewController.m */; };
 		84B00E1717E8322A001DF7E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B00E1617E8322A001DF7E7 /* UIKit.framework */; };
 		84B00E1917E8322A001DF7E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B00E1817E8322A001DF7E7 /* Foundation.framework */; };
 		84B00E1B17E8322A001DF7E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B00E1A17E8322A001DF7E7 /* CoreGraphics.framework */; };
@@ -44,9 +46,12 @@
 		8460F66517E8521500F89448 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = SmartTableView/SBJSON/SBJsonParser.m; sourceTree = "<group>"; };
 		8460F66617E8521500F89448 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = SmartTableView/SBJSON/SBJsonWriter.h; sourceTree = "<group>"; };
 		8460F66717E8521500F89448 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = SmartTableView/SBJSON/SBJsonWriter.m; sourceTree = "<group>"; };
-		8497D7E817E9CC9000B3BA6F /* SmartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartTableViewController.m; sourceTree = "<group>"; };
-		8497D7E917E9CC9000B3BA6F /* SmartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartTableViewController.h; sourceTree = "<group>"; };
-		8497D7EB17E9CCE800B3BA6F /* SmartTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmartTableViewController.xib; sourceTree = "<group>"; };
+		84971F8F17EADDED002B1A14 /* SmartMarkableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartMarkableViewController.h; sourceTree = "<group>"; };
+		84971F9017EADDED002B1A14 /* SmartMarkableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartMarkableViewController.m; sourceTree = "<group>"; };
+		84971F9117EADDED002B1A14 /* SmartMarkableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmartMarkableViewController.xib; sourceTree = "<group>"; };
+		84971F9417EAF9DB002B1A14 /* SmartTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmartTableViewController.xib; sourceTree = "<group>"; };
+		84971F9517EAF9DB002B1A14 /* SmartTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartTableViewController.m; sourceTree = "<group>"; };
+		84971F9617EAF9DB002B1A14 /* SmartTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartTableViewController.h; sourceTree = "<group>"; };
 		84B00E1317E8322A001DF7E7 /* SmartTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B00E1617E8322A001DF7E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84B00E1817E8322A001DF7E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,9 +127,12 @@
 		84B00E1C17E8322A001DF7E7 /* SmartTableView */ = {
 			isa = PBXGroup;
 			children = (
-				8497D7EB17E9CCE800B3BA6F /* SmartTableViewController.xib */,
-				8497D7E817E9CC9000B3BA6F /* SmartTableViewController.m */,
-				8497D7E917E9CC9000B3BA6F /* SmartTableViewController.h */,
+				84971F9417EAF9DB002B1A14 /* SmartTableViewController.xib */,
+				84971F9517EAF9DB002B1A14 /* SmartTableViewController.m */,
+				84971F9617EAF9DB002B1A14 /* SmartTableViewController.h */,
+				84971F8F17EADDED002B1A14 /* SmartMarkableViewController.h */,
+				84971F9017EADDED002B1A14 /* SmartMarkableViewController.m */,
+				84971F9117EADDED002B1A14 /* SmartMarkableViewController.xib */,
 				894C0AA217E8C65D0077C9BA /* GreetZAPFestivals.h */,
 				894C0AA317E8C65D0077C9BA /* GreetZAPFestivals.m */,
 				84B00E2517E8322A001DF7E7 /* AppDelegate.h */,
@@ -207,7 +215,8 @@
 				84B00E2D17E8322A001DF7E7 /* Default-568h@2x.png in Resources */,
 				84B00E3A17E832B3001DF7E7 /* Names.plist in Resources */,
 				8460F65817E84DBA00F89448 /* list.json in Resources */,
-				8497D7EC17E9CCE800B3BA6F /* SmartTableViewController.xib in Resources */,
+				84971F9317EADDED002B1A14 /* SmartMarkableViewController.xib in Resources */,
+				84971F9717EAF9DB002B1A14 /* SmartTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +236,8 @@
 				8460F66C17E8521500F89448 /* SBJsonParser.m in Sources */,
 				8460F66D17E8521500F89448 /* SBJsonWriter.m in Sources */,
 				894C0AA417E8C65D0077C9BA /* GreetZAPFestivals.m in Sources */,
-				8497D7EA17E9CC9000B3BA6F /* SmartTableViewController.m in Sources */,
+				84971F9217EADDED002B1A14 /* SmartMarkableViewController.m in Sources */,
+				84971F9817EAF9DB002B1A14 /* SmartTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

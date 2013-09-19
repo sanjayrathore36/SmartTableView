@@ -22,6 +22,6 @@
 @synthesize  endDate;
 @synthesize  thumbImage;
 @synthesize  largeImage;
-
+@synthesize  isChecked;
 
 @end

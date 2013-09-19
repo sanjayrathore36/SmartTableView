@@ -24,5 +24,6 @@
 @property(nonatomic, strong) NSString*      endDate;
 @property(nonatomic, strong) UIImage*       thumbImage;
 @property(nonatomic, strong) UIImage*       largeImage;
+@property(nonatomic, readwrite)BOOL         isChecked;
 
 @end

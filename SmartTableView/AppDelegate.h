@@ -9,11 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @class SmartTableViewController;
+@class SmartMarkableViewController;
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) SmartTableViewController *viewController;
+@property (strong, nonatomic) SmartMarkableViewController *viewController2;
+
+
 
 @end

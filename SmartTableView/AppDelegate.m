@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "SmartTableViewController.h"
+#import "SmartMarkableViewController.h"
+
 
 #import "JSON.h"
 #import "GreetZAPFestivals.h"
@@ -23,11 +25,14 @@
     NSArray* parsedItemArray = [self parseFestivalsData];
     
     // Override point for customization after application launch.
-    self.viewController = [[SmartTableViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    [self.viewController setItemsForTableView:parsedItemArray];
+//    self.viewController = [[SmartTableViewController alloc] initWithNibName:@"SmartTableViewController" bundle:nil];
+//    [self.viewController setItemsForTableView:parsedItemArray];
+    
+    self.viewController2 = [[SmartMarkableViewController alloc] initWithNibName:@"SmartMarkableViewController" bundle:nil];
+    [self.viewController2 setItemsForTableView:parsedItemArray];
     
     
-    self.window.rootViewController = self.viewController;
+    self.window.rootViewController = self.viewController2;
     [self.window makeKeyAndVisible];
     return YES;
 }
